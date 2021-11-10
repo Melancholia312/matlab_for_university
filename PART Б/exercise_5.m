@@ -1,0 +1,10 @@
+%1
+limit([sin(x)/x],x,0.^+1)
+%2
+limit([1+cos(x)/x+pi],x,pi)
+%3
+limit([x.^2*exp(-x)],x,inf)
+%4
+limit([1/x-1],x,1.^-1) 
+%5
+limit([sin(1/x)],x,0.^+1) 
